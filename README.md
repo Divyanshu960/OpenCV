@@ -1,2 +1,2 @@
 # OpenCV
-Recognition based OpenCV project
+Face Recognition based OpenCV project
