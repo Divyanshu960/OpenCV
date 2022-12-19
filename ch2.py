@@ -8,7 +8,7 @@ fig = plt.figure(figsize=(10, 7))
 
 img = c.imread("Res/Divyanshu.png")
 kernel = np.ones((5,5),np.uint8)
-
+ 
 imgGray = c.cvtColor(img,c.COLOR_BGR2GRAY)
 imgBlur = c.GaussianBlur(imgGray,(7,7),0)
 imgCanny =c.Canny(img,150,200)
