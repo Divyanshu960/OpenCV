@@ -1,11 +1,11 @@
 import cv2 as c
 import numpy as np
 from matplotlib import pyplot as plt
- 
+  
 rows = 2
 columns = 2
 fig = plt.figure(figsize=(10, 7))
-
+ 
 img = c.imread("Res/Divyanshu.png")
 kernel = np.ones((5,5),np.uint8)
  
