@@ -1,11 +1,11 @@
 import cv2 as c
 import numpy as np
 from matplotlib import pyplot as plt
-  
+   
 rows = 2
 columns = 2
 fig = plt.figure(figsize=(10, 7))
- 
+  
 img = c.imread("Res/Divyanshu.png")
 kernel = np.ones((5,5),np.uint8)
  
@@ -19,7 +19,7 @@ Image2 = c.imshow("Blur Image",imgBlur)
 Image3 = c.imshow("Canny Image",imgCanny)
 Image4 = c.imshow("Dilated Image",imgDilation)
 fig.add_subplot(rows, columns, 1)
-  
+   
 # showing image
 plt.imshow(Image1)
 plt.axis('off')
