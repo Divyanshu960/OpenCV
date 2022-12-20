@@ -1,4 +1,4 @@
-import cv2 as c
+import cv2 as c 
 print("Package Imported")  
 #
 # img = c.imread("Res/viper.jpg")
