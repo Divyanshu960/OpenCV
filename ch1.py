@@ -1,5 +1,5 @@
 import cv2 as c
-print("Package Imported")
+print("Package Imported") 
 #
 # img = c.imread("Res/viper.jpg")
 # c.imshow("Output",img)
